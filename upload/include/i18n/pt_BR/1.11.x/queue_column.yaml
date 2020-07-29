@@ -1,0 +1,109 @@
+---
+- 
+  id: 1
+  name: "Número do ticket"
+  primary: "number"
+  filter: "link:ticketP"
+  truncate: "wrap"
+  annotations: '[{"c":"TicketSourceDecoration","p":"b"}]'
+  conditions: '[{"crit":["isanswered","nset",null],"prop":{"font-weight":"bold"}}]'
+- 
+  id: 2
+  name: "Data de Criação"
+  primary: "created"
+  secondary: null
+  filter: "date:full"
+  truncate: "wrap"
+  annotations: "[]"
+  conditions: "[]"
+- 
+  id: 3
+  name: "Assunto"
+  primary: "cdata__subject"
+  filter: "link:ticket"
+  truncate: "ellipsis"
+  annotations: '[{"c":"TicketThreadCount","p":">"},{"c":"ThreadAttachmentCount","p":"a"},{"c":"OverdueFlagDecoration","p":"<"},{"c":"LockDecoration","p":"<"}]'
+  conditions: '[{"crit":["isanswered","nset",null],"prop":{"font-weight":"bold"}}]'
+- 
+  id: 4
+  name: "User Name"
+  primary: "user__name"
+  truncate: "wrap"
+  annotations: '[{"c":"ThreadCollaboratorCount","p":">"}]'
+  conditions: "[]"
+- 
+  id: 5
+  name: "Prioridade"
+  primary: "cdata__priority"
+  truncate: "wrap"
+  annotations: "[]"
+  conditions: "[]"
+- 
+  id: 6
+  name: "Status"
+  primary: "status__id"
+  truncate: "wrap"
+  annotations: "[]"
+  conditions: "[]"
+- 
+  id: 7
+  name: "Data de Conclusão"
+  primary: "closed"
+  filter: "date:full"
+  truncate: "wrap"
+  annotations: "[]"
+  conditions: "[]"
+- 
+  id: 11
+  name: "Designado"
+  primary: "assignee"
+  truncate: "wrap"
+  annotations: "[]"
+  conditions: "[]"
+- 
+  id: 9
+  name: "Data de Vencimento"
+  primary: "duedate"
+  secondary: "est_duedate"
+  filter: "date:human"
+  truncate: "wrap"
+  annotations: "[]"
+  conditions: "[]"
+- 
+  id: 10
+  name: "Última Atualização"
+  primary: "lastupdate"
+  filter: "date:full"
+  truncate: "wrap"
+  annotations: "[]"
+  conditions: "[]"
+- 
+  id: 11
+  name: "Departamento"
+  primary: "dept_id"
+  truncate: "wrap"
+  annotations: "[]"
+  conditions: "[]"
+- 
+  id: 12
+  name: "Última Mensagem"
+  primary: "thread__lastmessage"
+  filter: "date:human"
+  truncate: "wrap"
+  annotations: "[]"
+  conditions: "[]"
+- 
+  id: 13
+  name: "Última Resposta"
+  primary: "thread__lastresponse"
+  filter: "date:human"
+  truncate: "wrap"
+  annotations: "[]"
+  conditions: "[]"
+- 
+  id: 14
+  name: "Equipe"
+  primary: "team_id"
+  truncate: "wrap"
+  annotations: "[]"
+  conditions: "[]"

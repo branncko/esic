@@ -1,0 +1,10 @@
+---
+org_sharing:
+  title: Compartilhamento de ticket
+  content: >
+    <p> Compartilhamento de tickets da organização permite membros acessarem tickets que pertencem a outros mesmo da organização. </p> <p class="info-banner"> <i class="icon-info-sign"></i> Colaboradores sempre tem acesso aos tickets. </p>
+email_domain:
+  title: Domínio de e-mail
+  content: >
+    Usuários podem ser adicionados automaticamente a esta organização baseando-se no(s) domínio(s) de e-mail. Use a caixa abaixo para entrar com um ou mais domínios, separados por virgulas. Por exemplo, insira <code>minhacompania.com</code> para usuários com os endereços de e-mail terminados em @minhacompania.com
+

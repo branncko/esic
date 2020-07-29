@@ -1,0 +1,57 @@
+---
+search_field:
+  title: Campo de pesquisa
+  0: >
+
+advanced:
+  title: Avançado
+  content: >
+    Reduza seus parâmetros de pesquisa. Um vez que você selecionou e executou seus critérios de busca avançada, você pode <span class="doc-desc-title">Exportar </span> os dados na parte inferior da página de tickets.
+open_tickets_table:
+  title: Tabela de tickets aberta
+  content: >
+    Tickets atualmente abertos e que requerem atenção
+ticket:
+  title: Ticket
+  0: >
+
+date:
+  title: Data
+  0: >
+
+subject:
+  title: Assunto
+  0: >
+
+from:
+  title: De
+  0: >
+
+priority:
+  title: Prioridade
+  0: >
+
+assigned_to:
+  title: Atribuído a
+  0: >
+
+export:
+  title: Exportar
+  content: >
+    Exporte seus dados atualmente no modo de exibição em um arquivo CSV. Arquivos CSV podem ser abertos com qualquer software de planilha eletrônica (ou seja, Microsoft Excel, páginas da Apple, OpenOffice, etc.).
+advanced_search_dialog:
+  title: Busca Avançada
+  0: >
+
+adv_keyword:
+  title: Pesquisar palavra-chave
+  content: >
+    Encontre soluções baseadas no assunto ou corpo da mensagem do ticket, bem como todo o conteúdo textual associado aos campos personalizados para os usuários e tickets.
+adv_date_range:
+  title: Pesquisar por intervalo de datas
+  content: >
+    Definição aqui
+reply_types:
+  title: Reply Types
+  content: >
+    <b>Reply All:</b> This reply is sent to the User and the Collaborators you choose to include.</br> <b>Reply to User:</b> This reply is sent to the User only, no Collaborators.</br> <b>Do Not Email Reply:</b> No email alerts are sent out, however, the Agent response is visible to <b>ALL</b> Users upon viewing the Ticket.

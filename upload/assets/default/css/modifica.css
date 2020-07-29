@@ -1,0 +1,676 @@
+/* Por Júnior Menezes - 11/07/2019 */
+body {
+	box-sizing: content-box;
+}
+a#logo:hover {
+	border-bottom: 0 !important;
+}
+.text-legal {
+	background: #009356;
+	border-bottom-left-radius: 6px;
+	border-bottom-right-radius: 6px;
+	color: #fff;
+	font-weight: 700;
+	padding: 10px !important;
+	text-align: center;
+	text-transform: uppercase;
+	width: auto !important;	
+}
+.white {
+	color: #fff;
+}
+.white a {
+	color: #ffba06; !important;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+#landing_page {
+	background: #eaeaea;
+	border-bottom: 3px solid #ddd;
+	padding: 20px;
+	color: #2a2a2a;
+}
+#ticketForm div.no-padding {
+	padding: 0;
+}
+#profile-new p.sub,
+#login-new p.sub,
+#register-new p.sub,
+#ticket-status-new p.sub {
+	background: #eaeaea;
+	border: 1px dotted #ddd;
+	line-height: 30px;
+	margin-bottom: 10px;
+	padding-left: 20px;
+}
+#profile-new p.sub,
+#register-new p.sub,
+#ticket-status-new p.sub {
+	font-weight: 700;
+}
+#login-new input[type="text"],
+#login-new input[type="password"],
+#register-new input[type="text"],
+#register-new input[type="tel"],
+#register-new input[type="password"],
+#profile-new input[type="text"],
+#profile-new input[type="tel"],
+#profile-new input[type="password"],
+#open-new input[type="text"],
+#clientLogin input[type="text"],
+#ticketSearchForm input[type="text"],
+#edit-new input[type="text"] {
+	border: 0;
+	background: #fff;
+	border-bottom: 3px solid #ddd;
+	font-weight: 700;
+	color: #2a2a2a;
+}
+.login input[type="text"]:hover,
+.login input[type="password"]:hover,
+#login-new input[type="text"]:hover,
+#login-new input[type="password"]:hover,
+#register-new input[type="text"]:hover,
+#register-new input[type="tel"]:hover,
+#register-new input[type="password"]:hover,
+#profile-new input[type="text"]:hover,
+#profile-new input[type="tel"]:hover,
+#profile-new input[type="password"]:hover,
+#open-new input[type="text"]:hover,
+#clientLogin input[type="text"]:hover,
+#ticketSearchForm input[type="text"]:hover,
+#edit-new input[type="text"]:hover {
+	border: 0;
+	background: #fff;
+	border-bottom: 3px solid #14753c;
+	font-weight: 700;
+	color: #2a2a2a;
+}
+
+/** BOTÕES */
+#index-new input[type="submit"],
+#index-new input[type="button"],
+#login-new input[type="submit"],
+#register-new input[type="submit"],
+#register-new input[type="button"],
+#ticket-status-new input[type="submit"],
+#tickets-new input[type="submit"],
+#profile-new input[type="submit"],
+#profile-new input[type="reset"],
+#profile-new input[type="button"],
+#open-new input[type="submit"],
+#open-new input[type="reset"],
+#open-new input[type="button"],
+#view-new input[type="submit"],
+#view-new input[type="reset"],
+#view-new input[type="button"],
+#edit-new input[type="submit"],
+#edit-new input[type="reset"],
+#edit-new input[type="button"],
+#forgot-new input[type="submit"] {
+	background: #ffb007;
+	border: 0 !important;
+	color: #2a2a2a;
+    padding: 8px 20px;
+	border: 0;
+    border-radius: 18px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+#index-new input[type="submit"]:hover,
+#index-new input[type="button"]:hover,
+#login-new input[type="submit"]:hover,
+#register-new input[type="submit"]:hover,
+#register-new input[type="button"]:hover,
+#ticket-status-new input[type="submit"]:hover,
+#tickets-new input[type="submit"]:hover,
+#profile-new input[type="submit"]:hover,
+#profile-new input[type="reset"]:hover,
+#profile-new input[type="cancel"]:hover,
+#open-new input[type="submit"]:hover,
+#open-new input[type="reset"]:hover,
+#open-new input[type="button"]:hover,
+#view-new input[type="submit"]:hover,
+#view-new input[type="reset"]:hover,
+#view-new input[type="button"]:hover,
+#edit-new input[type="submit"]:hover,
+#edit-new input[type="reset"]:hover,
+#edit-new input[type="button"]:hover,
+#forgot-new input[type="submit"]:hover {
+	background: #ffba06;
+	border: 0 !important;
+	color: #2a2a2a;
+}
+#login-new p.infolink,
+#ticket-status-new p.infolink {
+	background-color: #eee;
+	border: 1px dotted #ddd;
+	color: #14753c;
+	font-weight: 700;
+	line-height: 30px;
+	margin-top: 25px;
+	padding-left: 20px;
+}
+/*home page*/
+.citizen-services {
+	width: 50%;
+	margin-top: 20px;
+	margin-right: 10px;
+	padding: 20px;
+	background: #eaeaea;
+	border-bottom: 3px solid #ddd;
+	box-sizing: border-box;
+}
+.citizen-services h3,
+.statistics h3,
+.presential h3,
+.graphs h3 {
+	color: #14753c;
+	font-weight: 300;
+}
+.statistics {
+	width: 50%;
+	margin-top: 20px;
+	margin-left: 10px;
+	padding: 20px;
+	background: #eaeaea;
+	border-bottom: 3px solid #ddd;
+	box-sizing: border-box;
+}
+/*.presential {
+	background: #eaeaea;
+	border-bottom: 3px solid #ddd;
+	display: block;
+	margin-top: 20px;
+	padding: 20px;
+	box-sizing: border-box;
+}*/
+#presential,
+#contacts {
+	background: #eee;
+	border: 1px dotted #ddd;
+	display: inline-block;
+	padding: 20px;
+	margin-top: 25px;
+	width: 100%;
+}
+#presential {
+	height: 134px;
+}
+#contacts {
+	margin-bottom: 25px;
+}
+#presential div.bottom,
+#contacts div.bottom {
+	margin-bottom: 10px;
+}
+.phone,
+.mail,
+.time {
+	display: inline-block;
+	padding-left: 24px;
+	height: 33px;
+	width: 100%;
+}
+.phone {
+	background: url('https://www.cruz.ce.gov.br/esic/upload/svg/phone.svg') no-repeat;
+	background-position: 0px 9px;
+	background-size: 16px;
+}
+.mail {
+	background: url('https://www.cruz.ce.gov.br/esic/upload/svg/mail.svg') no-repeat;
+	background-position: 0px 9px;
+	background-size: 16px;
+}
+.time {
+	background: url('https://www.cruz.ce.gov.br/esic/upload/svg/time.svg') no-repeat;
+	background-position: 0px 9px;
+	background-size: 16px;
+}
+#manuals {
+	display: inline-block;
+	margin-top: 25px;
+	width: 100%;	
+}
+.how-to-open,
+.how-to-track {
+	margin-top: 10px;
+}
+.how-to-register,
+.how-to-open,
+.how-to-track {
+	background: #eee;
+	border: 1px dotted #ddd;
+	line-height: 30px;
+	margin-right: 0px;
+	padding-left: 20px;
+	font-weight: 700;
+	height: 30px;
+	width: 100%;
+	text-transform: uppercase;
+}
+/*#how-to-register div.results,
+#how-to-open div.results,
+#how-to-track div.results {
+	background: #14753c url('https://www.cruz.ce.gov.br/esic/upload/images/seta.svg');
+	background-size: 12px;
+	background-position: 12px 9px;
+	background-repeat: no-repeat;
+	padding: 8px;
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: 700;
+	width: 7.5%;
+	height: 30px;
+	text-align: center;
+}*/
+.how-to-register a,
+.how-to-open a,
+.how-to-track a {
+	color: #2a2a2a;
+}
+.how-to-register a:hover,
+.how-to-open a:hover,
+.how-to-track a:hover {
+	color: #14753c;
+}
+#numbers {
+	display: inline-block;
+	margin-top: 25px;
+	width: 100%;
+}
+#received div.title,
+#solved div.title,
+#usersq div.title {
+	background: #eee;
+	border: 1px dotted #ddd;
+	color: #2a2a2a;
+	font-weight: 700;
+	line-height: 30px;
+	margin-right: 0px;
+	padding-left: 20px;
+	width: 92.7%;
+	height: 30px;
+	text-transform: uppercase;
+}
+#received div.results,
+#solved div.results,
+#usersq div.results {
+	background: #009356;
+	color: #fff;
+	font-weight: 700;
+	line-height: 30px;
+	margin-left: 5px;
+	width: 7.3%;
+	height: 30px;
+	text-align: center;
+	text-transform: uppercase;
+}
+#received {
+	display: flex;
+}
+#solved,
+#usersq {
+	margin-top: 10px;
+	display: flex;
+}
+#line p {
+	color: #2a2a2a;
+	font-weight: 700;
+	margin-bottom: 0;
+}
+
+/* Graficos - Home Page */
+#request-graph {
+	background: #eee;
+	border: 1px dotted #ddd;
+	display: inline-block;
+	margin-top: 25px;
+	padding: 20px;
+	width: 100%;
+	height: 271px;
+}
+#warning-text {
+	background: #14753c;
+	color: #fff;
+	display: inline-block;
+	margin-top: 25px;
+	padding: 17px 20px 17px;
+	width: 100%;
+}
+.graphs {
+	background: #eaeaea;
+	border-bottom: 3px solid #ddd;
+	margin-top: 20px;
+	padding: 20px;
+}
+.graphs h3 {
+	margin-bottom: 25px;
+}
+#request-graph h4,
+.graphs h4 {
+	text-transform: uppercase;
+}
+.sexGraphContainer,
+.ageGraphContainer,
+.schoolingGraphContainer {
+	width: 33.33%;
+}
+.sexGraph,
+.ageGraph {
+	width: 100%;
+	padding-right: 10px;
+}
+.schoolingGraph {
+	width: 100%;
+}
+
+/*Página login - Abrir nova Solicitação*/
+#login-new {
+	background: #eaeaea;
+	border-bottom: 3px solid #ddd;
+	padding: 20px;
+}
+#login-new h1, 
+#register-new h1, 
+#profile-new h1, 
+#ticket-status-new h1, 
+#account-confirmed-new h1, 
+#open-new h1,
+#view-new h1,
+#edit-new h1,
+#forgot-new h1 {
+	color: #14753c;
+	font-weight: 300;
+	margin-bottom: 25px;
+}
+#register-new h3, 
+#profile-new h3,
+#edit-new h3 {
+	color: #14753c;
+	font-weight: 500;
+}
+#login-new p.box-button {
+	margin: 0 0 10px 0;
+}
+
+/*Registro de conta e gerenciamento*/
+#register-new, 
+#profile-new {
+	background: #eaeaea;
+	border-bottom: 3px solid #ddd;
+	padding: 20px;
+}
+#clientRegister input[type="text"],
+#clientRegister input[type="password"],
+#clientRegister input[type="tel"],
+#profile-new input[type="text"],
+#profile-new input[type="password"],
+#profile-new input[type="tel"],
+#edit-new input[type="text"] {
+	padding: 8px;
+	margin-top: 5px;
+}
+#register-new input#register:disabled, 
+#profile-new input#update:disabled {
+	border: 0 !important;
+	background: #f9f9f9;
+	color: #999;
+}
+#register-new div.form-group, 
+#profile-new div.form-group {
+	margin-top: 10px;
+}
+#profile-new select,
+#register-new select {
+	background-image: url('https://www.cruz.ce.gov.br/portal/extras/images/seta-select.png');
+	background-repeat: no-repeat;
+	background-position: 96%;
+	border: 0;
+	border-bottom: 3px solid #ddd !important;
+	margin-top: 5px;
+	padding: 6px;
+	-webkit-appearance: none;
+}
+#profile-new select:hover,
+#register-new select:hover {
+	border-bottom: 3px solid #14753c !important;
+}
+#profile-new option,
+#register-new option {
+	font-family: 'Roboto';
+}
+select#_sexo,
+select#_faixa,
+select#_escolaridade,
+select#_profissao {
+	width: 219.5px;
+}
+
+/*Ticket Status*/
+#ticket-status-new {
+	background: #eaeaea;
+	border-bottom: 3px solid #ddd;
+	padding: 20px;
+}
+#clientLogin input[type="text"],
+#clientLogin input[type="password"] {
+	padding: 8px;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+/*Conta Confirmada*/
+#account-confirmed-new {
+	background: #eaeaea;
+	border-bottom: 3px solid #ddd;
+	padding: 20px;
+}
+/*Abrir Nova Solicitação*/
+._label {
+	text-transform: uppercase;
+}
+#open-new {
+	background: #eaeaea;
+	border-bottom: 3px solid #ddd;
+	padding: 20px;
+}
+#open-new select {
+	background-image: url('https://www.cruz.ce.gov.br/portal/extras/images/seta-select.png');
+	background-repeat: no-repeat;
+	background-position: 96%;
+	border: 0;
+	border-bottom: 3px solid #ddd !important;
+	padding: 7px;
+	-webkit-appearance: none;
+	width: 375px;
+}
+#open-new select:hover {
+	border-bottom: 3px solid #14753c !important;
+}
+#open-new option {
+	font-family: 'Roboto';
+}
+#open-new table {
+	margin-top: 10px;
+	width: 100%;
+}
+#open-new h3 {
+	color: #14753c;
+	font-weight: 500;
+	margin-bottom: 0.5em;
+}
+#open-new input[type="text"],
+#open-new input[type="text"]:hover {
+	width: 98.5%;
+}
+#open-new div.redactor-box {
+	border: 0;
+	margin-top: 10px;
+}
+#open-new div.dropzone {
+	background: #2a2a2a;
+	border: 0;
+	border-radius: 0;
+	font-weight: 700;
+	padding: 8px;
+}
+#open-new div.filedrop {
+	padding-bottom: 0 !important;
+}
+#open-new div.dropzone a, 
+#open-new div.dropzone a:hover {
+	color: #fff;
+}
+#ticketForm input[type="text"] {
+	padding: 8px;
+	margin-top: 5px;
+}
+/*Listar Solicitações*/
+#tickets-new {
+	background: #eaeaea;
+	border-bottom: 3px solid #ddd;
+	padding: 20px;
+}
+#tickets-new div.search.well {
+	background-color: #eee;
+	border: 1px dotted #ddd;
+	margin-top: 0;
+}
+#ticketSearchForm input[type="text"] {
+	padding: 6px;
+}
+#tickets-new select {
+	background-image: url('https://www.cruz.ce.gov.br/portal/extras/images/seta-select.png');
+	background-repeat: no-repeat;
+	background-position: 96%;
+	border: 0;
+	border-bottom: 3px solid #ddd !important;
+	padding: 6px;
+	-webkit-appearance: none;
+}
+#tickets-new select:hover {
+	border-bottom: 3px solid #14753c !important;
+}
+#tickets-new option {
+	font-family: 'Roboto';
+}
+#tickets-new h1 {
+	font-weight: 300;
+}
+#tickets-new table {
+	background: #f9f9f9;
+}
+#tickets-new th {
+	background: #14753c;
+	border: 1px solid #eaeaea;
+	font-weight: 700;
+	padding: 6px 20px;
+	text-transform: uppercase;
+}
+#tickets-new th a {
+	color: #fff;
+}
+#tickets-new td {
+	border: 1px solid #eaeaea;
+	padding: 9px 20px 10px;
+}
+#tickets-new th td {
+}
+#tickets-new tr.tr-height {
+}
+#tickets-new caption {
+	background: #eee;
+	border: 1px dotted #ddd;
+	color: #2a2a2a;
+	padding-left: 20px;
+	line-height: 30px;
+	margin: 20px 0 10px 0;
+}
+#tickets-new div.pagination {
+	margin-top: 10px;
+}
+#tickets-new a.Icon {
+	background-image: url('../images/icons/request.svg');
+	background-size: 14px;
+	color: #14753c;
+	font-weight: 700;
+}
+/*Visualizar Solicitação*/
+#view-new {
+	background: #eaeaea;
+	border-bottom: 3px solid #ddd;
+	padding: 20px;
+}
+#view-new a.action-button:hover {
+	border: 0;
+}
+#view-new td.headline {
+	background: #14753c;
+	color: #fff;
+	padding: 10px 20px !important;
+	text-transform: uppercase;
+}
+#view-new table.infoTable {
+	background: #f9f9f9;
+}
+#view-new table.infoTable th {
+	padding: 10px 20px;
+}
+#view-new table.infoTable td {
+	padding: 5px 1px;
+}
+#view-new div.thread-body {
+	font-family: inherit;
+}
+#view-new form#reply {
+	background: #eee;
+	border: 1px dotted #ddd;
+}
+#view-new div.redactor-box {
+	border: 0;
+	margin-top: 10px;
+}
+#view-new div.dropzone {
+	background: #2a2a2a;
+	border: 0;
+	border-radius: 0;
+	font-weight: 700;
+	padding: 8px;
+}
+#view-new div.filedrop {
+	padding-bottom: 0 !important;
+}
+#view-new div.dropzone a, 
+#view-new div.dropzone a:hover {
+	color: #fff;
+}
+/*Editar Solicitação*/
+#edit-new {
+	background: #eaeaea;
+	border-bottom: 3px solid #ddd;
+	padding: 20px;
+}
+/*Manual*/
+#manual {
+	background: #eaeaea;
+	border-bottom: 3px solid #ddd;
+	padding: 20px;
+}
+/*Esqueceu Senha*/
+#forgot-new {
+	background: #eaeaea;
+	border-bottom: 3px solid #ddd;
+	padding: 20px;
+}
+#forgot-new p.box-button {
+	margin-top: 0;
+}
+/*Remove fundos amarelos*/
+input#_cargo {
+    -webkit-box-shadow: 0 0 0 30px white inset;
+}
+
+/* Cor do texto do autocomplete */
+input:-webkit-autofill {
+    -webkit-text-fill-color: blue !important;
+}

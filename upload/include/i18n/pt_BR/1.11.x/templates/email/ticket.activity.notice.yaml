@@ -1,0 +1,20 @@
+---
+notes: |
+  Aviso enviado aos colaboradores na atividade do ticket. Exemplo: resposta ou mensagem.
+subject: |
+  Re: %{ticket.subject}
+body: |
+  <h3><strong>Prezado %{recipient.name.first},</strong></h3>
+  <div>
+  <em>%{poster.name}</em> acaba de adicionar uma mensagem ao chamado em que você participa.
+  </div>
+  <br>
+  %{message}
+  <br>
+  <br>
+  <hr>
+  <div style="color: rgb(127, 127, 127); font-size: small; text-align: center;">
+  <em> Você está recebendo este e-mail porque você é um colaborador do chamado <a href="%{recipient.ticket_link}" style="color: rgb(84, 141, 212);"
+  >#%{ticket.number}</a>.  Para participar, simplesmente responda a este e-mail ou <a href="%{recipient.ticket_link}" style="color: rgb(84, 141, 212);"
+  >clique aqui</a> para um arquivo completo deste chamado.</em>
+  </div>

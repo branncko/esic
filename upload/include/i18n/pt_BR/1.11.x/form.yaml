@@ -1,0 +1,192 @@
+---
+- 
+  id: 1
+  type: U
+  title: Informações de contato
+  flags: 0
+  fields:
+    - 
+      type: text
+      name: email
+      label: Endereço de e-mail
+      sort: 1
+      flags: 489379
+      configuration:
+        size: 40
+        length: 64
+        validator: email
+    - 
+      type: text
+      name: name
+      label: Nome completo
+      sort: 2
+      flags: 489379
+      configuration:
+        size: 40
+        length: 64
+    - 
+      type: phone
+      name: phone
+      label: Número do Telefone
+      sort: 3
+      flags: 13057
+    - 
+      type: memo
+      name: notes
+      label: Notas internas
+      sort: 4
+      flags: 12289
+      configuration:
+        rows: 4
+        cols: 40
+- 
+  id: 2
+  type: T
+  title: Detalhes do chamado
+  instructions: Por favor, descreva seu problema
+  notes: |
+    Este formulário será anexado a cada chamado, independentemente de sua origem. Você pode adicionar qualquer campo a este formulário e ele estará disponíveis para todos os chamados, sendo possível efetuar pesquisas avançadas e filtráveis.
+  flags: 0
+  fields:
+    - 
+      id: 20
+      type: text
+      name: subject
+      label: Resumo do Problema
+      sort: 1
+      flags: 489249
+      configuration:
+        size: 40
+        length: 50
+    - 
+      id: 21
+      type: thread
+      name: message
+      label: Detalhes do Problema
+      hint: Detalhes sobre a(s) razão(ões) para abrir o chamado.
+      sort: 2
+      flags: 480547
+    - 
+      id: 22
+      type: priority
+      name: priority
+      label: Nível de prioridade
+      flags: 274609
+      sort: 3
+- 
+  type: C
+  title: Informação da Empresa
+  instructions: Detalhes disponíveis em modelos de e-mail
+  flags: 0
+  fields:
+    - 
+      type: text
+      name: name
+      label: Nome da Empresa
+      sort: 1
+      flags: 291233
+      configuration:
+        size: 40
+        length: 64
+    - 
+      type: text
+      name: website
+      label: Website
+      sort: 2
+      flags: 12545
+      configuration:
+        size: 40
+        length: 64
+    - 
+      type: phone
+      name: phone
+      label: Número do Telefone
+      sort: 3
+      flags: 12545
+      configuration:
+        ext: false
+    - 
+      type: memo
+      name: address
+      label: Endereço
+      sort: 4
+      flags: 12545
+      configuration:
+        rows: 2
+        cols: 40
+        html: false
+        length: 100
+- 
+  type: O
+  title: Informações da Organização
+  instructions: Detalhes da organização do usuário
+  flags: 0
+  fields:
+    - 
+      type: text
+      name: name
+      label: Nome
+      sort: 1
+      flags: 489379
+      configuration:
+        size: 40
+        length: 64
+    - 
+      type: memo
+      name: address
+      label: Endereço
+      sort: 2
+      flags: 13057
+      configuration:
+        rows: 2
+        cols: 40
+        length: 100
+        html: false
+    - 
+      type: phone
+      name: phone
+      label: Telefone
+      sort: 3
+      flags: 13057
+    - 
+      type: text
+      name: website
+      label: Website
+      sort: 4
+      flags: 13057
+      configuration:
+        size: 40
+        length: 0
+    - 
+      type: memo
+      name: notes
+      label: Notas internas
+      sort: 5
+      flags: 12289
+      configuration:
+        rows: 4
+        cols: 40
+- 
+  type: A
+  title: Detalhes da Tarefa
+  instructions: Por Favor, Descreva o Problema
+  notes: |
+    Este formulário é usado para criar uma tarefa.
+  flags: 0
+  fields:
+    - 
+      type: text
+      name: título
+      flags: 290977
+      sort: 1
+      label: Título
+      configuration:
+        size: 40
+        length: 50
+    - 
+      type: thread
+      name: description
+      flags: 282867
+      sort: 2
+      label: Descrição
+      hint: Detalhes do(s) motivo(s) da criação da tarefa.

@@ -1,0 +1,34 @@
+---
+- 
+  id: 1
+  role_id: 1
+  flags: 1
+  name: Domadores de Leões
+  notes: |
+    Responsáveis pelo sistema. Essas pessoas (inicialmente) tem controle total de todos os departamentos que têm acesso.
+  depts:
+    - 1
+    - 2
+    - 3
+- 
+  id: 2
+  role_id: 2
+  flags: 1
+  name: Caminhantes de Elefantes
+  notes: |
+    Habitantes da torre de marfim
+  depts:
+    - 1
+    - 2
+    - 3
+- 
+  id: 3
+  role_id: 2
+  flags: 1
+  name: Treinadores de Pulgas
+  notes: |
+    Membros da equipe de atendimento
+  depts:
+    - 1
+    - 2
+    - 3
